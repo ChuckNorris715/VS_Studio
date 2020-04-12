@@ -1,0 +1,173 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "ch9.Test",
+            "projectName": "CSE-135_Spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "CSE-135_Spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - average",
+            "request": "launch",
+            "mainClass": "ch7.average",
+            "projectName": "CSE-135_Spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - helloTest",
+            "request": "launch",
+            "mainClass": "ch7.helloTest",
+            "projectName": "CSE-135_Spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - bestCustomer",
+            "request": "launch",
+            "mainClass": "ch6.bestCustomer",
+            "projectName": "CSE-135_Spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TicTacToe",
+            "request": "launch",
+            "mainClass": "ch6.TicTacToe",
+            "projectName": "CSE-135_Spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - magicMatrix",
+            "request": "launch",
+            "mainClass": "ch6.magicMatrix",
+            "projectName": "CSE-135_Spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArraylistMerge",
+            "request": "launch",
+            "mainClass": "ch6.ArraylistMerge",
+            "projectName": "CSE-135_Spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - arrayList",
+            "request": "launch",
+            "mainClass": "ch6.arrayList",
+            "projectName": "CSE-135_Spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Reversearray",
+            "request": "launch",
+            "mainClass": "ch6.Reversearray",
+            "projectName": "CSE-135_Spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArrayOperations",
+            "request": "launch",
+            "mainClass": "ch6.ArrayOperations",
+            "projectName": "CSE-135_Spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CardSelect",
+            "request": "launch",
+            "mainClass": "midterm.CardSelect",
+            "projectName": "CSE-135_Spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CardPicking",
+            "request": "launch",
+            "mainClass": "midterm.CardPicking",
+            "projectName": "CSE-135_Spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - avgWords",
+            "request": "launch",
+            "mainClass": "ch5.avgWords",
+            "projectName": "CSE-135_Spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - stringWords",
+            "request": "launch",
+            "mainClass": "ch5.stringWords",
+            "projectName": "CSE-135_Spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringWords",
+            "request": "launch",
+            "mainClass": "ch5.StringWords",
+            "projectName": "CSE-135_Spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - External Terminal",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach) - Remote",
+            "request": "attach",
+            "hostName": "<The host name or ip address of remote debuggee>",
+            "port": "<debug port of remote debuggee>"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuickStart<CSE-135_Spring-2020>",
+            "request": "launch",
+            "mainClass": "QuickStart",
+            "projectName": "CSE-135_Spring-2020"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><extensionAttribute>
+<displayName>UEX - Deferral Detection</displayName>
+<description>Returns 'active' if there are deferrals on the computer and 'none' if there are none</description>
+<dataType>string</dataType>
+<scriptContentsMac>#!/bin/bash&#13;
+&#13;
+fn_read_uex_Preference () {&#13;
+	local domain="$1"&#13;
+	defaults read /Library/Preferences/github.cubandave.uex.plist "$domain"&#13;
+}&#13;
+&#13;
+UEXFolderPath="$(fn_read_uex_Preference "UEXFolderPath")"&#13;
+# in case the plist hasn't been create on this version then set it to the previous standard&#13;
+if [[ -z "$UEXFolderPath" ]] ; then&#13;
+	UEXFolderPath="/Library/Application Support/JAMF/UEX"&#13;
+fi&#13;
+&#13;
+moredefer=$( ls "$UEXFolderPath"/defer_jss/*.plist )&#13;
+if [[ -z $moredefer ]] ; then &#13;
+	result="none"&#13;
+else&#13;
+	result="active"&#13;
+fi&#13;
+&#13;
+echo "&lt;result&gt;$result&lt;/result&gt;"</scriptContentsMac>
+</extensionAttribute>
